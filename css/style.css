@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+a.{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.login-form{
+width: 600px;
+margin: 70px auto;
+background: #eee;
+padding: 40px;
+}
+
+.avatar{
+	width: 100%;
+	text-align: center;
+}
+
+
+.avatar img{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+}
+
+.avatar h1{
+	font-size: 36px;
+	line-height: 46px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 100;
+	margin: 12px 0px;
+	}
+
+.form-group{
+	width: 100%;
+	margin: 0px 0px 20px;
+}
+
+.form-group label{
+display: block;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+margin: 0px 0px 3px;
+}
+
+.form-group .form-control{
+	width: 90%;
+	padding: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	background: transparent;
+}
+
+.form-group .bttn-info{
+	padding: 10px 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+.form-group .bttn-info:hover{
+	background: red;
+	color: black;
+	border: 1px solid #000;
+	cursor: pointer;
+}
